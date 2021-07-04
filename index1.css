@@ -1,0 +1,271 @@
+body {
+  font-family: "Microsoft YaHei";
+  margin: 0px;
+}
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+#all {
+  width: 100%;
+}
+/*hear和direction部分*/
+.head {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(156, 5, 5);
+}
+.inner {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.word {
+  color: #fff;
+  font-size: 12px;
+  padding-left: 100px;
+  padding-top: 15px;
+  width: 20%;
+  float: left;
+}
+.word2 {
+  float: right;
+  color: #fff;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+header.top {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  height: 90px;
+}
+header.top img#headerLogo {
+  position: absolute;
+  left: 120px;
+  top: 0px;
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+}
+.inner2 {
+  width: 1036px;
+  margin: 0px 270px;
+}
+.inner2 .dir {
+  height: 41px;
+  margin: 0;
+  padding-top: 30px;
+  display: block;
+}
+.dir .dir1 {
+  line-height: 41px;
+  float: left;
+  position: relative;
+  height: 41px;
+}
+.dir li.dir1 a {
+  font-size: 16px;
+  font-weight: normal;
+  color: black;
+}
+.dir1 a span.wd {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  padding: 0px 25px;
+}
+
+.dir li.dir1 a:hover {
+  display: inline-block;
+  color: rgb(105, 4, 4);
+  font-size: 120%;
+  height: 41px;
+}
+/*container1*/
+.container1 {
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+.photo {
+  width: 100%;
+  height: 550px;
+}
+/*next*/
+.next {
+  background: url(Marvel/next.jpg) 0 no-repeat;
+  width: 200px;
+  height: 27px;
+  margin: 0 auto;
+}
+/*container2*/
+.container2 {
+  width: 100%;
+  height: 480px;
+}
+.title{
+  text-align: center;
+  color: rgb(156, 5, 5);
+  font-weight: bolder;
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom:20px ;
+}
+.con1 {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+}
+.con1 ul {
+  text-decoration: none;
+  margin-top: 30px;
+  text-align: center;
+}
+.con1 li {
+  height: auto;
+  margin-left: 4px;
+  width: 32%;
+  float: left;
+  position: relative;
+}
+.up {
+  width: 100%;
+  height: auto;
+}
+.down {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  background-color: #ededed;
+}
+.photo1 {
+  height: 300px;
+  width: 100%;
+}
+/*container3*/
+.container3 {
+  height: 550px;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.tit {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 50px;
+  font-style: italic;
+  color: darkred;
+  margin-bottom: 50px;
+}
+.line {
+  position: absolute;
+  width: 5%;
+  height: 262px;
+  background-color: balck;
+  display: block;
+}
+.first {
+  width: 32%;
+  height: auto;
+  float: left;
+}
+.up1 {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+.lefter {
+  width: 49%;
+  height: auto;
+  float: left;
+}
+.righter {
+  width: 49%;
+  height: auto;
+  display: inline-block;
+  height: auto;
+}
+.con {
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.spider {
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+}
+.down1 {
+  width: 100%;
+  height: auto;
+}
+.cont {
+  margin: 20px;
+  margin-top: 0px;
+  line-height: 30px;
+}
+.four {
+  width: 0.1%;
+  height: 450px;
+  float: left;
+  border-left: 2px solid rgb(134, 133, 133);
+}
+.second {
+  width: 32%;
+  height: auto;
+  float: left;
+}
+.part1 {
+  height: 32px;
+  line-height: 32px;
+  float: right;
+}
+.header {
+  height: 41px;
+}
+.second li{
+  margin:  0 30px;
+  line-height: 60px;
+}
+.third {
+  width: 32%;
+  height: auto;
+  display: inline-block;
+}
+.child{
+  height: 240px;
+  width: 220px;
+}
+.wd5{
+  font-size: 22px;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+  color: rgb(179, 24, 24);
+}
+.pic4{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.conta{
+  line-height: 30px;
+  margin: 0px 20px ;
+}
+/*footer*/
+footer {
+  background-color: rgb(156, 5, 5);
+  color: #fff;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding: 15px 0px;
+  text-align: center;
+}

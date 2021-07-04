@@ -1,0 +1,207 @@
+body {
+  font-family: "Microsoft YaHei";
+  margin: 0px;
+}
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+#all {
+  width: 100%;
+}
+/*hear和direction部分*/
+.head {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(156, 5, 5);
+}
+.inner {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.word {
+  color: #fff;
+  font-size: 12px;
+  padding-left: 100px;
+  padding-top: 15px;
+  width: 20%;
+  float: left;
+}
+.word2 {
+  float: right;
+  color: #fff;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+header.top {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  height: 90px;
+}
+header.top img#headerLogo {
+  position: absolute;
+  left: 120px;
+  top: 0px;
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+}
+.inner2 {
+  width: 1036px;
+  margin: 0px 270px;
+}
+.inner2 .dir {
+  height: 41px;
+  margin: 0;
+  padding-top: 30px;
+  display: block;
+}
+.dir .dir1 {
+  line-height: 41px;
+  float: left;
+  position: relative;
+  height: 41px;
+}
+.dir li.dir1 a {
+  font-size: 16px;
+  font-weight: normal;
+  color: black;
+}
+.dir1 a span.wd {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  padding: 0px 25px;
+}
+
+.dir li.dir1 a:hover {
+  display: inline-block;
+  color: rgb(105, 4, 4);
+  font-size: 120%;
+  height: 41px;
+}
+/*container*/
+.container {
+  height: 1500px;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+.hd {
+  color: #8a0202;
+  line-height: 140%;
+  text-align: center;
+  font: 50px "Times New Roman";
+}
+p {
+  margin: 0;
+  padding-top: 50px;
+  line-height: 20px;
+}
+.wd2 {
+  font-size: 20px;
+  color: #000;
+  line-height: 28px;
+}
+/*左边表单部分*/
+.first {
+  left: 100px;
+  top: 100px;
+  position: absolute;
+  width: 550px;
+  height: 485px;
+}
+.first table {
+  border: 2px solid #fcd66e;
+  border-spacing: 0;
+  width: 100%;
+  margin-top: 40px;
+  border-spacing: 0 30px;
+}
+.first td {
+  font-size: 15px;
+  display: table-cell;
+  padding-left: 40px;
+}
+.req {
+  color: red;
+  font-weight: bold;
+}
+.wd3 {
+  font-weight: bolder;
+}
+.wd4 {
+  color: #999;
+  font-weight: normal;
+  font-size: 14px;
+}
+.sty {
+  width: 40%;
+  display: inline-block;
+  line-height: 25px;
+}
+.textareatype {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 350px;
+  height: 80px;
+}
+.sty1 {
+  line-height: 25px;
+}
+.table1 {
+  width: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+.bt {
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  margin-top: 5px;
+}
+a.bt {
+  width: 550px;
+  background-color: #fcd66e;
+  display: block;
+  font-family: "微软雅黑";
+  float: left;
+  text-decoration: none;
+}
+a.bt:hover {
+  background-color: #f12c2c;
+}
+/*右边图片瀑布流*/
+.second {
+  left: 750px;
+  top: 140px;
+  position: absolute;
+  font-family: Helvetica;
+}
+.masonry {
+  column-count: 2;
+  column-gap: 0;
+}
+.item {
+  padding: 2px;
+}
+.item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/*footer*/
+footer {
+  background-color:  rgb(156, 5, 5);
+  color: #fff;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  padding: 15px 0px;
+}
